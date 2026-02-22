@@ -2,6 +2,7 @@
 # Roll Number: [Your Roll Number]
 # Assignment: Python Loops & Automation - Subjective Question
 
+
 print("===== Task 1: Find Maximum and Minimum =====")
 temperatures = [28, 32, 35, 29, 31, 27, 30]
 max_temp=temperatures[0]
@@ -15,6 +16,7 @@ print(f"Highest Temperature: {max_temp}°C")
 print(f"Lowest Temperature: {min_temp}°C")
 
 
+
 print("\n===== Task 2: Count Hot Days =====")
 temperatures = [28, 32, 35, 29, 31, 27, 30]
 count=0
@@ -24,6 +26,7 @@ for temp in temperatures:
     else:
         continue
 print("Hot Days (>30°C): ",count)
+
 
 
 print("\n===== Task 3: Alert System =====")
